@@ -54,15 +54,15 @@ Watch this [video]() to see MerryQuery in action and learn how it can enhance yo
 ## Contributors
 
 - **Dr. Tiffany Barnes**
-  - *Project Advisor*
+  - *Principle Investigator*
   - [tmbarnes@ncsu.edu](mailto:tmbarnes@ncsu.edu)
 
 - **Dr. Dongkuan (DK) Xu**
-  - *Project Advisor*
+  - *Principle Investigator*
   - [dxu27@ncsu.edu](mailto:dxu27@ncsu.edu)
 
 - **Dr. Joey Huang**
-  - *Project Advisor*
+  - *Faculty Collaborator*
   - [joeyhuang@ncsu.edu](mailto:joeyhuang@ncsu.edu)
 
 - **Benyamin Tabarsi**
