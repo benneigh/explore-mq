@@ -4,7 +4,7 @@
 import React, { useState, useRef } from "react";
 import SidebarNavigation from "./SidebarNavigation";
 import StepContent from "./StepContent";
-import { getStartedSteps, Step } from "@/data/getStartedData";
+import { getStartedSteps} from "@/data/getStartedData";
 
 const StepsSection: React.FC = () => {
   const [activeStep, setActiveStep] = useState<number>(1);

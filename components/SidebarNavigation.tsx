@@ -2,7 +2,7 @@
 "use client";
 
 import React from "react";
-import { getStartedSteps, Step } from "@/data/getStartedData";
+import {Step } from "@/data/getStartedData";
 
 interface SidebarNavigationProps {
   steps: Step[];
