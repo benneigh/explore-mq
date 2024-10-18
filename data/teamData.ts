@@ -20,7 +20,7 @@ export interface TeamMember {
     },
     {
       id: 2,
-      image: "/images/dxu27.jpg",
+      image: "/images/DK.png",
       alt: "Dr. Dongkuan (DK) Xu",
       name: "Dr. Dongkuan (DK) Xu",
       role: "Principal Investigator",
