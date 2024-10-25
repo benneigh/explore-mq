@@ -11,7 +11,7 @@ const FacultySection: React.FC = () => {
         <div className="text-left mb-12">
           <h1 className="text-4xl">Our Faculty Collaborators</h1>
           <p className="text-gray-600 mt-4">
-            Faculty collaboration drives MerryQuery's innovation and real-world
+            Faculty collaboration drives MerryQuery’s innovation and real-world
             classroom impact.
           </p>
         </div>
