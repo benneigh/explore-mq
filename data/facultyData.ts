@@ -24,7 +24,7 @@ export const facultyData: FacultyMember[] = [
     id: 3,
     image: "/images/huang.jpg",
     name: "Dr. Joey Huang",
-    title: "Assistant Professor in College of Education Teaching",
+    title: "Assistant Professor in College of Education",
     collaboration:
       "Dr. Huang integrated MerryQuery into her course, ECI 519-601, where students and a tech team collaborated to improve the platform and develop new features.",
     description:
