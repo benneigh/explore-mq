@@ -32,9 +32,9 @@ export interface TeamMember {
       image: "/images/benyamin.jpg",
       alt: "Benyamin Tabarsi",
       name: "Benyamin Tabarsi",
-      role: "PhD Researcher",
+      role: "Research and Development Lead",
       description:
-        "Benyamin Tabarsi is a PhD student in Computer Science at North Carolina State University, specializing in CS education and generative AI. His key projects include developing AI applications for education and healthcare.",
+        "Benyamin Tabarsi is a PhD student in Computer Science at North Carolina State University, specializing in CS education and generative AI. Passionate about using AI for social impact, he has worked on projects such as MerryQuery, ChatLearn (an LLM-based medical chatbot), and workshops training teachers on AI integration.",
     },
   ];
   
