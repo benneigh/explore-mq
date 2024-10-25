@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 py-8 mt-auto footer-divider">
+    <footer className="bg-gray-50 py-8 mt-auto footer-divider">
       <div className="container mx-auto px-4">
         {/* Top section with navigation and social links */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
@@ -37,6 +37,11 @@ export default function Footer() {
               <li>
                 <a href="/#features" className="text-gray-600 hover:underline">
                   Key Features
+                </a>
+              </li>
+              <li>
+                <a href="/#faculty-collaborators" className="text-gray-600 hover:underline">
+                  Faculty Collaboraters
                 </a>
               </li>
               <li>

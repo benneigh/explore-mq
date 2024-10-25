@@ -8,7 +8,7 @@ const FeaturesSection: React.FC = () => {
   const secondRow = features.slice(3, 6);
 
   return (
-    <section id="features" className="bg-gray-50 py-16">
+    <section id="features" className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl lg:text-4xl text-center mb-12">
           Discover MerryQuery’s Features

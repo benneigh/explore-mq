@@ -10,7 +10,7 @@ export const getStartedSteps: Step[] = [
     id: 1,
     title: "Register for an Account",
     description: [
-      "1. **Visit the Website:** Go to [mq.benyamintabarsi.com](https://mq.benyamintabarsi.com).",
+      "1. **Visit the Website:** Go to [mq.dk-lab.xyz](https://mq.dk-lab.xyz).",
       "2. **Create Your Account:** Click the **Register** button located at the top right corner of the homepage. A registration page will appear; click on the **Register** tab if you’re not already there.",
       "3. **Fill in the Registration Form:** Complete the form, selecting the role you wish to test: **Teacher** or **Student**.",
       "   - **Important Note:** If you want to test the **Student** role, ensure that you or one of your classmates has already registered as a **Teacher**, created a course, uploaded materials, and shared the course joining code with you.",

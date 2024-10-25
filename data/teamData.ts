@@ -29,15 +29,6 @@ export interface TeamMember {
     },
     {
       id: 3,
-      image: "/images/huang.webp",
-      alt: "Dr. Joey Huang",
-      name: "Dr. Joey Huang",
-      role: "Faculty Collaborator",
-      description:
-        "Joey Huang is an Assistant Professor of Learning, Design, & Technology at NC State University, recognized for advancing computational thinking and educational technology. Huang’s research integrates crafts and computing to expand access to computer science and earned an ACM CHI Honorable Mention for AI-driven learning designs promoting equity in STEAM education.",
-    },
-    {
-      id: 4,
       image: "/images/benyamin.jpg",
       alt: "Benyamin Tabarsi",
       name: "Benyamin Tabarsi",
