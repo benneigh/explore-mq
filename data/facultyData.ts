@@ -21,7 +21,7 @@ export const facultyData: FacultyMember[] = [
     image: "/images/tbdimitr.jpg",
   },
   {
-    id: 3,
+    id: 2,
     image: "/images/huang.jpg",
     name: "Dr. Joey Huang",
     title: "Assistant Professor in College of Education",

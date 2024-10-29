@@ -43,10 +43,10 @@ export const features: Feature[] = [
   {
     id: 5,
     image: "/images/logger.webp",
-    alt: "Advanced Logging System",
-    title: "Advanced Logging System",
+    alt: "Research-Driven Design",
+    title: "Research-Driven Design",
     description:
-      "MerryQuery collects detailed student interaction logs, enabling researchers to analyze student behaviors.",
+      "MerryQuery collects student interaction logs, enabling researchers to analyze student behaviors.",
   },
   {
     id: 6,
