@@ -40,7 +40,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/#faculty-collaborators" className="text-gray-600 hover:underline">
+                <a href="/faculty-collaborators" className="text-gray-600 hover:underline">
                   Faculty Collaboraters
                 </a>
               </li>
