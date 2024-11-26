@@ -7,7 +7,7 @@ interface FacultyMemberProps {
   member: FacultyMemberType;
 }
 
-const FacultyMember: React.FC<FacultyMemberProps> = ({ member }) => {
+const FacultyMemberComponent: React.FC<FacultyMemberProps> = ({ member }) => {
   return (
     <div className="bg-white overflow-hidden flex flex-col sm:flex-row items-stretch">
       {/* Image Container */}
@@ -27,7 +27,9 @@ const FacultyMember: React.FC<FacultyMemberProps> = ({ member }) => {
           <h2 className="text-2xl font-semibold text-gray-800">
             {member.name}
           </h2>
-          <p className="text-sm font-semibold  mb-1">{member.title}</p>
+          <p className="text-sm font-semibold mb-1">
+            {member.title} in {member.department}
+          </p>
           <p className="text-gray-600">{member.description}</p>
           <p className="text-gray-600 mt-4">
             <b>Collaboration:</b> {member.collaboration}
@@ -38,4 +40,4 @@ const FacultyMember: React.FC<FacultyMemberProps> = ({ member }) => {
   );
 };
 
-export default FacultyMember;
+export default FacultyMemberComponent;
