@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
 
 :root {
   --background: #ffffff;
@@ -32,4 +35,13 @@ body {
 }
 .footer-divider {
   border-top: 1px solid #e5e7eb; 
+}
+
+.slick-dots li button:before {
+  margin-top: 10px;
+  font-size: 6px;
+  color: #1D4ED8; /* Tailwind's blue-700, for instance */
+}
+.slick-dots li.slick-active button:before {
+  color: #1E40AF; /* A darker shade of blue for active dot */
 }

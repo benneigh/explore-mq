@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">About ExploreMQ</h3>
             <p className="text-gray-600">
-              ExploreMQ is the gateway to the MerryQuery Platform. <br />
+              ExploreMQ is the gateway to MerryQuery. <br />
               You can meet our expert team here, and stay updated with <br />
               our cutting-edge features designed for a modern classroom!
             </p>
