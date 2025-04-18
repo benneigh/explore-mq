@@ -28,7 +28,7 @@ export interface NewsItem {
       content: "Small-scale usability test has been completed.",
       icon: "🔍",
       label: "UPDATE",
-      date: "Sep 2025",
+      date: "Sep 2024",
     },
   ];
   
