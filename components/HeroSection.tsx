@@ -5,7 +5,7 @@ import NotificationBanner from "./NotificationBanner";
 const HeroSection: React.FC = () => {
   return (
     // Make this relative so children can overlap below sections
-    <section id="home" className="relative bg-white pb-0">
+    <section id="home" className="relative bg-white pb-16 xl:pb-6 2xl:pb-0">
       <div className="container mx-auto flex flex-col sm:flex-row items-start justify-between px-4">
         {/* 
           1. Wrap the image in a relative container + z-index. 
@@ -15,13 +15,11 @@ const HeroSection: React.FC = () => {
           <img
             src="/images/pic.webp"
             alt="Illustration of students and professor"
-            className="w-4/5 sm:w-3/4 lg:w-full max-w-xs lg:max-w-lg rounded-3xl
-                       mb-[-40px]  
-                       drop-shadow-lg"
+            className="w-4/5 sm:w-3/4 lg:w-full max-w-xs lg:max-w-lg rounded-3xl mb-[-40px] drop-shadow-lg"
           />
         </div>
         <div className="sm:w-1/2 space-y-6 order-2 sm:order-1">
-          <div className="inline-block mb-2">
+          <div className="inline-block mb-2 relative z-30">
             <NotificationBanner />
           </div>
           <h1 className="text-4xl lg:text-5xl leading-tight text-gray-900">
