@@ -6,8 +6,9 @@ export interface TeamMember {
     name: string;
     role: string;
     description: string;
+    website?: string;
   }
-  
+
   export const teamMembers: TeamMember[] = [
     {
       id: 1,
@@ -17,6 +18,7 @@ export interface TeamMember {
       role: "Principal Investigator",
       description:
         "Tiffany Barnes is a Distinguished Professor of Computer Science at NC State University, recognized for her contributions to AI in education and educational data mining. She has held various leadership roles in professional organizations and received an NSF CAREER Award for her innovative work in enhancing STEM learning environments.",
+      website: "https://eliza.csc.ncsu.edu/index.html",
     },
     {
       id: 2,
@@ -26,15 +28,17 @@ export interface TeamMember {
       role: "Principal Investigator",
       description:
         "Dongkuan (DK) Xu is an Assistant Professor at NC State, leading research in Artificial General Intelligence and generative AI systems, with numerous awards and publications in top AI conferences. His mission is to democratize AI applications and enhance productivity through collaborative generative intelligent agents.",
+      website: "https://i.dk-lab.xyz/",
     },
     {
       id: 3,
       image: "/images/benyamin.jpg",
       alt: "Benyamin Tabarsi",
       name: "Benyamin Tabarsi",
-      role: "Research and Development Lead",
+      role: "Research Lead",
       description:
-        "Benyamin Tabarsi is a PhD student in Computer Science at North Carolina State University, specializing in CS education and generative AI. Passionate about using AI for social impact, he has worked on projects such as MerryQuery, ChatLearn (an LLM-based medical chatbot), and workshops training teachers on AI integration.",
+        "Benyamin Tabarsi is a PhD student in Computer Science at North Carolina State University, specializing in CS education and AI. Passionate about using AI for social impact, he has worked on projects such as MerryQuery, SafeTalkCoach (an LLM-based medical assistant), and workshops training teachers on AI integration.",
+      website: "https://benyamintabarsi.com",
     },
   ];
   

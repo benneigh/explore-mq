@@ -38,7 +38,7 @@ export const features: Feature[] = [
     alt: "Instructor Analytics Dashboard",
     title: "Instructor Analytics Dashboard",
     description:
-      "Instructors get a comprehensive dashboard with student engagement metrics, struggle detection and keyword analysis, time-slot usage breakdowns, concept difficulty tracking, and topic performance visualization. They can also review individual student conversations, manage rosters, and configure TA access.",
+      "Instructors get a dashboard with engagement metrics, struggle detection, time-slot usage breakdowns, concept difficulty tracking, and topic performance visualization — plus tools to review student conversations and manage TA access.",
   },
   {
     id: 5,

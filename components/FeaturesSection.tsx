@@ -19,7 +19,7 @@ const FeaturesSection: React.FC = () => {
         {rows.map((row, idx) => (
           <div
             key={idx}
-            className={`flex flex-col lg:flex-row items-start justify-between space-y-8 lg:space-y-0${idx > 0 ? " mt-12" : ""}`}
+            className={`flex flex-col lg:flex-row items-start justify-center space-y-8 lg:space-y-0 lg:gap-8${idx > 0 ? " mt-12" : ""}`}
           >
             {row.map((feature) => (
               <FeatureCard key={feature.id} feature={feature} />

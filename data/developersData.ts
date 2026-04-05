@@ -45,23 +45,20 @@ export interface Developer {
     },
     {
       id: 6,
-      image:
-        "https://s3.eu-central-1.amazonaws.com/uploads.mangoweb.org/shared-prod/visegradfund.org/uploads/2021/08/placeholder-male.jpg",
+      image: "/images/berwin.jpg",
       alt: "Berwin Chen",
       name: "Berwin Chen",
     },
     {
       id: 7,
-      image:
-        "https://s3.eu-central-1.amazonaws.com/uploads.mangoweb.org/shared-prod/visegradfund.org/uploads/2021/08/placeholder-male.jpg",
+      image: "/images/daniel.jpeg",
       alt: "Daniel Briceno",
       name: "Daniel Briceno",
       affiliation: "NC State University",
     },
     {
       id: 8,
-      image:
-        "https://s3.eu-central-1.amazonaws.com/uploads.mangoweb.org/shared-prod/visegradfund.org/uploads/2021/08/placeholder-male.jpg",
+      image: "/images/shreyas.jpg",
       alt: "Shreyas Visweshwaran",
       name: "Shreyas Visweshwaran",
       affiliation: "NC State University",
