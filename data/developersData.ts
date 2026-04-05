@@ -50,5 +50,21 @@ export interface Developer {
       alt: "Berwin Chen",
       name: "Berwin Chen",
     },
+    {
+      id: 7,
+      image:
+        "https://s3.eu-central-1.amazonaws.com/uploads.mangoweb.org/shared-prod/visegradfund.org/uploads/2021/08/placeholder-male.jpg",
+      alt: "Daniel Briceno",
+      name: "Daniel Briceno",
+      affiliation: "NC State University",
+    },
+    {
+      id: 8,
+      image:
+        "https://s3.eu-central-1.amazonaws.com/uploads.mangoweb.org/shared-prod/visegradfund.org/uploads/2021/08/placeholder-male.jpg",
+      alt: "Shreyas Visweshwaran",
+      name: "Shreyas Visweshwaran",
+      affiliation: "NC State University",
+    },
   ];
   

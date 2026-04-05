@@ -19,10 +19,10 @@ export const features: Feature[] = [
   {
     id: 2,
     image: "/images/granularity.webp",
-    alt: "Granularity Control",
-    title: "Granularity Control",
+    alt: "GenAI Assistance Scale",
+    title: "GenAI Assistance Scale",
     description:
-      "Instructors can adjust the level of assistance based on the course needs. Practice mode offers hints, while review mode provides full solutions for in-depth understanding.",
+      "Instructors can fine-tune how much help MerryQuery provides using a 5-level GenAI assistance scale — from Level 1 (concepts and pseudocode only) to Level 5 (full working solutions).",
   },
   {
     id: 3,
@@ -30,15 +30,15 @@ export const features: Feature[] = [
     alt: "Guided Learning Dialogue",
     title: "Guided Learning Dialogue",
     description:
-      "Structured, step-by-step responses help students solve problems without undermining critical thinking.",
+      "MerryQuery uses level-aware scaffolding to guide students without giving away answers. Each GenAI level enforces specific behaviors.",
   },
   {
     id: 4,
     image: "/images/history.webp",
-    alt: "Chat History Monitoring",
-    title: "Chat History Monitoring",
+    alt: "Instructor Analytics Dashboard",
+    title: "Instructor Analytics Dashboard",
     description:
-      "Instructors can review student interactions through logged chat history, gaining real-time insights.",
+      "Instructors get a comprehensive dashboard with student engagement metrics, struggle detection and keyword analysis, time-slot usage breakdowns, concept difficulty tracking, and topic performance visualization. They can also review individual student conversations, manage rosters, and configure TA access.",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ export const features: Feature[] = [
     alt: "Research-Driven Design",
     title: "Research-Driven Design",
     description:
-      "MerryQuery collects student interaction logs, enabling researchers to analyze student behaviors.",
+      "MerryQuery includes a built-in experiment framework supporting A/B testing with lab-section-based condition assignment.",
   },
   {
     id: 6,
@@ -55,5 +55,13 @@ export const features: Feature[] = [
     title: "Multimodal Data Processing",
     description:
       "MerryQuery processes complex PDFs, using OCR and text mining to handle text, code, tables, and images.",
+  },
+  {
+    id: 7,
+    image: "/images/guided.webp",
+    alt: "Study Planning",
+    title: "Study Planning",
+    description:
+      "Students have workspaces with a Study Plan page for guided study coaching and a Practice page for generating exam-style questions with tips and suggestions on their prompts.",
   },
 ];

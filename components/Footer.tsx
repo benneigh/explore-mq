@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/faculty-collaborators" className="text-gray-600 hover:underline">
-                  Faculty Collaboraters
+                  Faculty Collaborators
                 </a>
               </li>
               <li>
