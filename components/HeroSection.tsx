@@ -39,7 +39,7 @@ const HeroSection: React.FC = () => {
           <div className="flex flex-col space-y-4">
             <p className="font-bold">Currently in beta.</p>
             <a
-              href="https://mq.dk-lab.xyz"
+              href="https://mq.csc.ncsu.edu"
               target="_blank"
               rel="noopener noreferrer"
               className="w-32 py-2 bg-blue-600 text-white text-center rounded-md hover:bg-blue-700 transition flex items-center justify-center text-sm"
