@@ -24,28 +24,30 @@ MerryQuery uses AI technology to transform the learning experience in modern cla
 
 
 ## Code Documentation
-`app/page.tsx` is the main landing page that assembles all components.
-### Components
+Next.js (App Router) with Tailwind CSS. Content lives in `data/`; components only render it.
 
-- **Hero.tsx:** Combines the HeroSection, FeaturesSection, and TeamSection for the homepage.
-- **HeroSection.tsx:** Displays the main promotional content with an illustrative image and introductory text.
-- **FeaturesSection.tsx:** Showcases the platform's key features using the `FeatureCard` component.
-- **FeatureCard.tsx:** A reusable card component for individual features.
-- **TeamSection.tsx:** Presents the core team and collaborating developers using `TeamMember` and `DeveloperCard` components.
-- **TeamMember.tsx:** Displays individual team member details.
-- **DeveloperCard.tsx:** Displays individual collaborating developer details.
-- **CollaboratingDevelopers.tsx:** Lists all collaborating developers.
+### Pages
+
+- **`app/page.tsx`:** Homepage: hero, platform features, course toolkit, ExLAIM teaser, news, recognition, team, and contact.
+- **`app/exlaim/page.tsx`:** The ExLAIM 2026 co-design program and the five tools it produced.
+- **`app/papers/page.tsx`:** Publications and related work.
+- **`app/talks/page.tsx`:** Talks, interviews, and press.
+- **`app/team/page.tsx`:** Project leads, every contributor by term, and faculty collaborators.
+- **`app/gallery/page.tsx`:** Photo gallery with category filters and a lightbox.
+- **`app/faculty-collaborators/`:** Faculty collaborators and one page per collaborator.
+- **SEO:** `app/sitemap.ts`, `app/robots.ts`, `app/opengraph-image.tsx` (share card), and `lib/seo.ts` (per-page canonical and social metadata).
 
 ### Data
 
-- **featuresData.ts:** Contains an array of feature objects displayed in the FeaturesSection.
-- **teamData.ts:** Contains an array of team member objects displayed in the TeamSection.
-- **developersData.ts:** Contains an array of collaborating developer objects.
-- **navLinks.ts:** Contains navigation link objects used in the Header component.
-
-### Public
-
-- **images:** Stores all image assets used across the website.
+- **`newsItems.ts`:** News cards (newest first) and the hero announcement.
+- **`featuresData.ts`:** Platform features and the five GenAI assistance levels.
+- **`toolkitData.ts`:** The teacher tools shown in "Your course toolkit".
+- **`exlaimData.ts`:** ExLAIM phases, practices, and tool write-ups.
+- **`contributorsData.ts`:** Student contributors, one stint per term they worked on MerryQuery, with public LinkedIn/GitHub/website links, plus the ExLAIM teachers. The Team page lists people under every term they contributed.
+- **`teamData.ts` / `facultyData.ts`:** Project leads and faculty collaborators.
+- **`papersData.ts`:** Papers, related work, and talks.
+- **`galleryData.ts`:** Gallery photos. Add images to `public/images/gallery/` and an entry here.
+- **`navLinks.ts`:** Navigation links, the platform URL, and the contact address.
 
 ## Check Out the Video!
 

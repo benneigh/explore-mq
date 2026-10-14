@@ -1,8 +1,17 @@
 // data/featuresData.ts
+import type { IconType } from "react-icons";
+import {
+  LuQuote,
+  LuFileStack,
+  LuLayoutPanelLeft,
+  LuUsers,
+  LuFlaskConical,
+  LuSlidersHorizontal,
+} from "react-icons/lu";
+
 export interface Feature {
   id: number;
-  image: string;
-  alt: string;
+  icon: IconType;
   title: string;
   description: string;
 }
@@ -10,58 +19,44 @@ export interface Feature {
 export const features: Feature[] = [
   {
     id: 1,
-    image: "/images/referencing1.jpg",
-    alt: "Source Citation",
-    title: "Source Citation",
+    icon: LuQuote,
+    title: "Source citations",
     description:
-      "MerryQuery generates responses with relevant course citations, allowing users to verify information and build trust.",
+      "Every grounded answer names the course document it drew from, so students can verify it and instructors can trust it.",
   },
   {
     id: 2,
-    image: "/images/granularity.webp",
-    alt: "GenAI Assistance Scale",
-    title: "GenAI Assistance Scale",
+    icon: LuFileStack,
+    title: "Multimodal course materials",
     description:
-      "Instructors can fine-tune how much help MerryQuery provides using a 5-level GenAI assistance scale — from Level 1 (concepts and pseudocode only) to Level 5 (full working solutions).",
+      "Complex PDFs with code, tables, and images are processed with OCR and text mining, organized in folders, and indexed in the background.",
   },
   {
     id: 3,
-    image: "/images/guided.webp",
-    alt: "Guided Learning Dialogue",
-    title: "Guided Learning Dialogue",
+    icon: LuSlidersHorizontal,
+    title: "Tone and answer format",
     description:
-      "MerryQuery uses level-aware scaffolding to guide students without giving away answers. Each GenAI level enforces specific behaviors.",
+      "Teachers can let students choose a friendly, formal, encouraging, or Socratic tone, and request formats such as lesson plans for their own prep.",
   },
   {
     id: 4,
-    image: "/images/history.webp",
-    alt: "Instructor Analytics Dashboard",
-    title: "Instructor Analytics Dashboard",
+    icon: LuUsers,
+    title: "TAs and roles",
     description:
-      "Instructors get a dashboard with engagement metrics, struggle detection, time-slot usage breakdowns, concept difficulty tracking, and topic performance visualization — plus tools to review student conversations and manage TA access.",
+      "Invite TAs and graders with scoped, role-based permissions and a dedicated interface for their responsibilities.",
   },
   {
     id: 5,
-    image: "/images/logger.webp",
-    alt: "Research-Driven Design",
-    title: "Research-Driven Design",
+    icon: LuLayoutPanelLeft,
+    title: "Review Center",
     description:
-      "MerryQuery includes a built-in experiment framework supporting A/B testing with lab-section-based condition assignment.",
+      "Look back at student conversations when it helps, and see unclear or flagged questions gathered in one place for review.",
   },
   {
     id: 6,
-    image: "/images/multimodal.jpg",
-    alt: "Multimodal Data Processing",
-    title: "Multimodal Data Processing",
+    icon: LuFlaskConical,
+    title: "Supports research",
     description:
-      "MerryQuery processes complex PDFs, using OCR and text mining to handle text, code, tables, and images.",
-  },
-  {
-    id: 7,
-    image: "/images/guided.webp",
-    alt: "Study Planning",
-    title: "Study Planning",
-    description:
-      "Students have workspaces with a Study Plan page for guided study coaching and a Practice page for generating exam-style questions with tips and suggestions on their prompts.",
+      "An experiment framework supports A/B studies, assigning conditions by lab section.",
   },
 ];

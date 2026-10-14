@@ -1,28 +1,15 @@
-// app/faculty/page.tsx
-
-"use client";
-
+// app/faculty-collaborators/page.tsx
 import React from "react";
-import Header from "@/components/Header";
+import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import FacultySection from "@/components/FacultySection";
-import Head from "next/head";
 
-const FacultyPage: React.FC = () => {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Head>
-        <title>Faculty Collaborators | MerryQuery</title>
-        <meta
-          name="description"
-          content="Meet the faculty collaborators who are driving innovation and excellence at MerryQuery."
-        />
-      </Head>
-      <Header />
-      <main>
-        <FacultySection />
-      </main>
-    </div>
-  );
-};
+export const metadata: Metadata = pageMetadata(
+  "Faculty Collaborators",
+  "The NC State faculty whose courses helped shape MerryQuery, from a 250-student MATLAB course to graduate learning-design courses.",
+  "/faculty-collaborators"
+);
+
+const FacultyPage: React.FC = () => <FacultySection />;
 
 export default FacultyPage;

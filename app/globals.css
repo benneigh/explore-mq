@@ -2,47 +2,93 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'slick-carousel/slick/slick.css';
-@import 'slick-carousel/slick/slick-theme.css';
-
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  scroll-padding-top: 5.5rem;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-paper text-ink antialiased;
+  font-feature-settings: "ss01", "cv11";
+}
+
+::selection {
+  @apply bg-wine-200 text-wine-950;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    @apply font-serif tracking-tight text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-wine-500 ring-offset-2 ring-offset-paper;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.16em] text-wine-700;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-wine-800 text-white shadow-soft hover:bg-wine-700;
+  }
+
+  .btn-secondary {
+    @apply btn border border-ink/15 bg-white/70 text-ink hover:border-ink/30 hover:bg-white;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-ink/10 bg-white/80 px-3 py-1 text-xs font-medium text-ink-soft;
+  }
+
+  .card {
+    @apply rounded-2xl border border-ink/[0.07] bg-white shadow-soft;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-.footer-divider {
-  border-top: 1px solid #e5e7eb; 
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  .bg-grain {
+    background-image: radial-gradient(rgba(63, 14, 41, 0.08) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
 }
 
-.slick-dots li button:before {
-  margin-top: 10px;
-  font-size: 6px;
-  color: #1D4ED8; /* Tailwind's blue-700, for instance */
-}
-.slick-dots li.slick-active button:before {
-  color: #1E40AF; /* A darker shade of blue for active dot */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
